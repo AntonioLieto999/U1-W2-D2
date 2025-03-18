@@ -8,19 +8,36 @@
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let numb1 = 7;
+if (numb1 !== 5) {
+  console.log("not equal");
+}
 
 /* ESERCIZIO 3
   Scrivi un algoritmo che mostri "divisibile per 5" in console se un numero fornito è perfettamente divisibile per 5 (suggerimento: usa l'operatore modulo)
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let numb2 = prompt("Inserire un numero per l'esercizio numero 3:");
+numb2 = parseInt(numb2);
+if (numb2 / 5 === 0) {
+  console.log("divisibile per 5");
+} else {
+  console.log("non divisibile");
+}
 
 /* ESERCIZIO 4
   Scrivi un algoritmo per verificare che, dati due numeri interi, il valore di uno di essi sia 8 oppure se la loro addizione/sottrazione sia uguale a 8.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let numb3 = 8;
+let numb4 = 16;
+
+if (numb3 === 8) {
+  console.log("è uguale a 8");
+} else if (numb4 + numb3 === 8) {
+  console.log("la loro somma è uguale a 8");
+} else numb4 - numb3 === 8;
+console.log("la loro sottrazione è uguale a 8");
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
@@ -43,7 +60,28 @@
   Alla fine mostra il risultato in console.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let numb5 = 15;
+let numb6 = 18;
+let numb7 = 3;
+
+if (numb5 > numb6 && numb5 > numb7) {
+  if (numb6 > numb7) {
+    console.log(numb5, numb6, numb7);
+  } else numb7;
+  console.log(numb5, numb7, numb6);
+} else if (numb6 > numb5 && numb6 > numb7) {
+  if (numb5 > numb7) {
+    console.log(numb6, numb5, numb7);
+  } else {
+    console.log(numb6, numb7, numb5);
+  }
+} else {
+  if (numb5 > numb6) {
+    console.log(numb7, numb5, numb6);
+  } else {
+    console.log(numb7, numb6, numb5);
+  }
+}
 
 /* ESERCIZIO 8
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
