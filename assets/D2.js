@@ -52,9 +52,9 @@ if (numb3 === 8) {
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 let totalCost;
-let totalShoppingCart = 49;
+let totalShoppingCart = 51;
 let costoDiSpedizone = 10;
-if (totalShoppingCart > 50) {
+if (totalShoppingCart >= 50) {
   costoDiSpedizone = 0;
 } else {
   costoDiSpedizone = 10;
@@ -62,6 +62,8 @@ if (totalShoppingCart > 50) {
 totalCost = totalShoppingCart + costoDiSpedizone;
 console.log(totalCost);
 
+totalShoppingCart * 0.8;
+console.log(totalShoppingCart); // dopo il debrief
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
