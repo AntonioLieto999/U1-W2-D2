@@ -40,10 +40,11 @@ let numb4 = 16;
 
 if (numb3 === 8) {
   console.log("è uguale a 8");
-} else if (numb4 + numb3 === 8) {
-  console.log("la loro somma è uguale a 8");
-} else numb4 - numb3 === 8;
-console.log("la loro sottrazione è uguale a 8");
+} else if (numb4 - numb3 === 8) {
+  console.log("la loro sottrazione è uguale a 8");
+} else {
+  console.log("la loro addizione non è uguale a 8");
+}
 
 /* ESERCIZIO 5
   Stai lavorando su un sito di e-commerce. Stai salvando il saldo totale del carrello dell'utente in una variabile "totalShoppingCart".
