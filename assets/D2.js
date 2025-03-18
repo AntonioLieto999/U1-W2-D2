@@ -87,14 +87,20 @@ if (numb5 > numb6 && numb5 > numb7) {
   Crea un algoritmo per verificare che un valore fornito sia un numero oppure no (suggerimento: cerca su un motore di ricerca "typeof").
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let numb8 = 12;
+typeof numb8; // type number
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
-
+let numb10 = 70;
+console.log(numb10 % 2);
+if (numb10 % 2 === 0) {
+  console.log("il numero è pari");
+} else {
+  console.log("il numero è dispari");
+}
 /* ESERCIZIO 10
   Modifica la logica del seguente algoritmo in modo che mostri in console il messaggio corretto in ogni circostanza.
   let val = 7
