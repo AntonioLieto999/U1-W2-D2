@@ -45,7 +45,14 @@ console.log("la loro sottrazione è uguale a 8");
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let totalShoppingCart = 49;
+let costoDiSpedizone = 10;
+if (totalShoppingCart > 50) {
+  costoDiSpedizone = 0;
+} else {
+  costoDiSpedizone = 10;
+}
+console.log(totalShoppingCart + costoDiSpedizone);
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
@@ -88,7 +95,7 @@ if (numb5 > numb6 && numb5 > numb7) {
 */
 
 let numb8 = 12;
-typeof numb8; // type number
+typeof numb8; // type: number
 
 /* ESERCIZIO 9
   Crea un algoritmo per controllare se un numero fornito sia pari o dispari (suggerimento: cerca l'operatore modulo su un motore di ricerca)
