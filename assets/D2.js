@@ -2,7 +2,13 @@
  Scrivi un algoritmo per trovare il più grande tra due numeri interi.
 */
 
-/* SCRIVI QUI LA TUA RISPOSTA */
+let intero1 = 23;
+let intero2 = 69;
+if (intero1 > intero2) {
+  console.log("23 è maggiore");
+} else {
+  console.log("69 è maggiore");
+}
 
 /* ESERCIZIO 2
   Scrivi un algoritmo che mostri "not equal" in console se un numero intero fornito è diverso da 5.
@@ -44,7 +50,7 @@ console.log("la loro sottrazione è uguale a 8");
   C'è una promozione in corso: se il totale del carrello supera 50, l'utente ha diritto alla spedizione gratuita (altrimenti la spedizione ha un costo fisso pari a 10).
   Crea un algoritmo che determini l'ammontare totale che deve essere addebitato all'utente per il checkout.
 */
-
+let totalCost;
 let totalShoppingCart = 49;
 let costoDiSpedizone = 10;
 if (totalShoppingCart > 50) {
@@ -52,14 +58,13 @@ if (totalShoppingCart > 50) {
 } else {
   costoDiSpedizone = 10;
 }
-console.log(totalShoppingCart + costoDiSpedizone);
+totalCost = totalShoppingCart + costoDiSpedizone;
+console.log(totalCost);
 
 /* ESERCIZIO 6
   Stai lavorando su un sito di e-commerce. Oggi è il Black Friday e viene applicato il 20% su ogni prodotto.
   Modifica la risposta precedente includendo questa nuova promozione nell'algoritmo, determinando come prima se le spedizioni sono gratuite oppure no e e calcolando il totale.
 */
-
-/* SCRIVI QUI LA TUA RISPOSTA */
 
 /* ESERCIZIO 7
   Crea tre variabili, e assegna un valore numerico a ciascuna di esse.
