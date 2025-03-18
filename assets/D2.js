@@ -74,7 +74,7 @@ if (val < 10){
   console.log("meno di 10")
 } else if (val < 5) {
   console.log("meno di 5")
-} else (val <= 10) {
+} else (val >= 10) {
   console.log("uguale a 10 o maggiore")
 }
 
