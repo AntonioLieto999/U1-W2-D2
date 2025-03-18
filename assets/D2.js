@@ -127,13 +127,12 @@ if (numb10 % 2 === 0) {
 
 let val = 7;
 if (val < 10) {
-  console.log("meno di 10");
-} else if (val < 5) {
   console.log("meno di 5");
-} else val >= 10;
-{
+} else if (val < 5) {
+  console.log("meno di 10");
+} else {
   console.log("uguale a 10 o maggiore");
-}
+} // aggiornato dopo il debrief
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
