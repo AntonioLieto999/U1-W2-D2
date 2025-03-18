@@ -174,5 +174,5 @@ console.log(numb);
   Scrivi del codice per sostituire l'ultimo elemento dell'array, ovvero il valore 10, con il valore 100.
 */
 
-numb.splice(9, 9, 100);
+numb.splice(9, 1, 100);
 console.log(numb);
