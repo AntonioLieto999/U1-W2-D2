@@ -69,15 +69,15 @@
     }
 */
 
-let val = 7
-if (val < 10){
-  console.log("meno di 10")
+let val = 7;
+if (val < 10) {
+  console.log("meno di 10");
 } else if (val < 5) {
-  console.log("meno di 5")
-} else (val >= 10) {
-  console.log("uguale a 10 o maggiore")
+  console.log("meno di 5");
+} else val >= 10;
+{
+  console.log("uguale a 10 o maggiore");
 }
-
 /* ESERCIZIO 11
   Fornito il seguente oggetto, scrivi del codice per aggiungere una proprietà "city", il cui valore sarà "Toronto".
 */
@@ -96,7 +96,7 @@ console.log(me);
 */
 
 delete me.lastName;
-console.log(me)
+console.log(me);
 
 /* ESERCIZIO 13
   Lavorando sempre sull'oggetto precedentemente fornito, scrivi del codice per rimuovere l'ultimo elemento della proprietà "skills".
